@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F817110E1FB2D3E7008A648B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F817110D1FB2D3E7008A648B /* AppDelegate.m */; };
+		F81711111FB2D3E7008A648B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F81711101FB2D3E7008A648B /* ViewController.m */; };
+		F81711141FB2D3E7008A648B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81711121FB2D3E7008A648B /* Main.storyboard */; };
+		F81711161FB2D3E7008A648B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F81711151FB2D3E7008A648B /* Assets.xcassets */; };
+		F81711191FB2D3E7008A648B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F81711171FB2D3E7008A648B /* LaunchScreen.storyboard */; };
+		F817111C1FB2D3E7008A648B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F817111B1FB2D3E7008A648B /* main.m */; };
+		F81711241FB2D464008A648B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81711231FB2D464008A648B /* CoreLocation.framework */; };
+		F81711281FB2D501008A648B /* EasyGPSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F81711271FB2D501008A648B /* EasyGPSLocation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F81711091FB2D3E7008A648B /* EasyGPSLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyGPSLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F817110C1FB2D3E7008A648B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F817110D1FB2D3E7008A648B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F817110F1FB2D3E7008A648B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F81711101FB2D3E7008A648B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F81711131FB2D3E7008A648B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F81711151FB2D3E7008A648B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F81711181FB2D3E7008A648B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F817111A1FB2D3E7008A648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F817111B1FB2D3E7008A648B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F81711231FB2D464008A648B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F81711261FB2D501008A648B /* EasyGPSLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyGPSLocation.h; sourceTree = "<group>"; };
+		F81711271FB2D501008A648B /* EasyGPSLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyGPSLocation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F81711061FB2D3E7008A648B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81711241FB2D464008A648B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F81711001FB2D3E7008A648B = {
+			isa = PBXGroup;
+			children = (
+				F817110B1FB2D3E7008A648B /* EasyGPSLocation */,
+				F817110A1FB2D3E7008A648B /* Products */,
+				F81711221FB2D463008A648B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F817110A1FB2D3E7008A648B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F81711091FB2D3E7008A648B /* EasyGPSLocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F817110B1FB2D3E7008A648B /* EasyGPSLocation */ = {
+			isa = PBXGroup;
+			children = (
+				F81711251FB2D4BE008A648B /* Location */,
+				F817110C1FB2D3E7008A648B /* AppDelegate.h */,
+				F817110D1FB2D3E7008A648B /* AppDelegate.m */,
+				F817110F1FB2D3E7008A648B /* ViewController.h */,
+				F81711101FB2D3E7008A648B /* ViewController.m */,
+				F81711121FB2D3E7008A648B /* Main.storyboard */,
+				F81711151FB2D3E7008A648B /* Assets.xcassets */,
+				F81711171FB2D3E7008A648B /* LaunchScreen.storyboard */,
+				F817111A1FB2D3E7008A648B /* Info.plist */,
+				F817111B1FB2D3E7008A648B /* main.m */,
+			);
+			path = EasyGPSLocation;
+			sourceTree = "<group>";
+		};
+		F81711221FB2D463008A648B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F81711231FB2D464008A648B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81711251FB2D4BE008A648B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F81711261FB2D501008A648B /* EasyGPSLocation.h */,
+				F81711271FB2D501008A648B /* EasyGPSLocation.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F81711081FB2D3E7008A648B /* EasyGPSLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F817111F1FB2D3E7008A648B /* Build configuration list for PBXNativeTarget "EasyGPSLocation" */;
+			buildPhases = (
+				F81711051FB2D3E7008A648B /* Sources */,
+				F81711061FB2D3E7008A648B /* Frameworks */,
+				F81711071FB2D3E7008A648B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyGPSLocation;
+			productName = EasyGPSLocation;
+			productReference = F81711091FB2D3E7008A648B /* EasyGPSLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F81711011FB2D3E7008A648B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = liang;
+				TargetAttributes = {
+					F81711081FB2D3E7008A648B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F81711041FB2D3E7008A648B /* Build configuration list for PBXProject "EasyGPSLocation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F81711001FB2D3E7008A648B;
+			productRefGroup = F817110A1FB2D3E7008A648B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F81711081FB2D3E7008A648B /* EasyGPSLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F81711071FB2D3E7008A648B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81711191FB2D3E7008A648B /* LaunchScreen.storyboard in Resources */,
+				F81711161FB2D3E7008A648B /* Assets.xcassets in Resources */,
+				F81711141FB2D3E7008A648B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F81711051FB2D3E7008A648B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81711111FB2D3E7008A648B /* ViewController.m in Sources */,
+				F81711281FB2D501008A648B /* EasyGPSLocation.m in Sources */,
+				F817111C1FB2D3E7008A648B /* main.m in Sources */,
+				F817110E1FB2D3E7008A648B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F81711121FB2D3E7008A648B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81711131FB2D3E7008A648B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F81711171FB2D3E7008A648B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F81711181FB2D3E7008A648B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F817111D1FB2D3E7008A648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F817111E1FB2D3E7008A648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F81711201FB2D3E7008A648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N7DECL4Z5;
+				INFOPLIST_FILE = EasyGPSLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EasyGPSLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F81711211FB2D3E7008A648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N7DECL4Z5;
+				INFOPLIST_FILE = EasyGPSLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EasyGPSLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F81711041FB2D3E7008A648B /* Build configuration list for PBXProject "EasyGPSLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F817111D1FB2D3E7008A648B /* Debug */,
+				F817111E1FB2D3E7008A648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F817111F1FB2D3E7008A648B /* Build configuration list for PBXNativeTarget "EasyGPSLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81711201FB2D3E7008A648B /* Debug */,
+				F81711211FB2D3E7008A648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F81711011FB2D3E7008A648B /* Project object */;
+}
